@@ -1,6 +1,7 @@
 site_name: Elixir Game Engine
 nav:
   - Home: index.md
+  - Build: build.md
   - CLI: cli.md
   - Devlog:
     - blog/index.md
