@@ -1,0 +1,14 @@
+version: '3.8'
+
+volumes:
+  Documentation:
+
+services:
+  elixir-docs:
+    image: elixir-docs
+    build: .
+    ports:
+      - "8000:8000"
+    restart: always
+    volumes:
+      - ./Documentation:/app/
