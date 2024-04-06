@@ -1,0 +1,9 @@
+---
+date: 2024-04-06
+---
+
+# The beggining of it all
+
+This is the first post in the blog. I've worked on this engine for quite a while but today we start a new era!
+
+An era of **devlogging**! :)

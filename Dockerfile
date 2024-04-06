@@ -4,7 +4,12 @@ WORKDIR /app
 
 # COPY Documentation/ .
 
-RUN apt update && apt install mkdocs -y
+RUN apt update
+RUN apt install python3-pip -y
+RUN pip install mkdocs
+RUN pip install mkdocs-dracula-theme
+RUN pip install mkdocs-material
+# RUN apt install mkdocs -y
 
 EXPOSE 8000
 

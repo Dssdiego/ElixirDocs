@@ -1,1 +1,40 @@
-site_name: My Docs
+site_name: Elixir Game Engine
+nav:
+  - Home: index.md
+  - CLI: cli.md
+  - Blog:
+    - blog/index.md
+# theme: readthedocs
+# theme: dracula
+plugins:
+  - blog
+    # blog_toc: true
+theme:
+  name: material
+  language: en
+  icon:
+    logo: material/crystal-ball
+  features:
+    - navigation.indexes
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: black
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: black
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+extra:
+  alternate:
+    - name: English
+      link: /en/ 
+      lang: en
+    - name: Português
+      link: /pt-br/
+      lang: pt-BR
